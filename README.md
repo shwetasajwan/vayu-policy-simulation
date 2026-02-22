@@ -1,6 +1,6 @@
-# VAYU — What-If Policy Simulation System
+# VAYU — Scenario-Based Policy Simulation System
 
-ML-powered decision-support tool enabling urban policymakers to simulate AQI intervention impact before implementation.
+ML-powered decision-support product enabling pre-implementation AQI intervention modelling for urban governance.
 
 ## 🚀 Overview
 
@@ -13,6 +13,8 @@ It enables decision-makers to:
 - Combine intervention scenarios  
 - Instantly view projected AQI changes  
 - Evaluate regulatory category shifts (e.g., Severe → Very Poor)
+
+Built as an exploratory product case study on embedding predictive intelligence into urban decision-making systems.
 
 ## 🧠 System Architecture
 
@@ -67,6 +69,17 @@ Interactive sliders enable rapid scenario exploration under seasonal constraints
 ## 💡 Key Insight
 
 Decision clarity and threshold visibility mattered more than marginal predictive accuracy.
+
+## ▶️ Running the Application
+
+To run the application locally:
+1. Open model_training.ipynb
+2. Run all cells to generate:
+   - aqi_prediction_model.pkl
+   - season_encoder.pkl
+   - dow_encoder.pkl
+   - model_features.pkl
+3. Then run app.py
 
 © 2026 Shweta Sajwan. Shared for portfolio and research purposes.
 
